@@ -1,0 +1,45 @@
+.border{
+    width: 60%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+label{
+    color: #8585a6;
+    text-align: left;
+    width: 100%;
+}
+
+hr{
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 4em;
+}
+
+input {
+    padding: 12px;
+    width: 100%;
+    color: white;
+    font-size: 1.5em;
+}
+.border > button{
+    padding: 12px;
+    /* width: 80%; */
+    background-color: #29292f;
+    border: none;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+ul{
+    width: 100%;
+}

@@ -9,6 +9,7 @@ function Movie(props) {
     const { handleClickMovie } = useContext(MovieListContext)
     const { handleClickAddList } = props
     const { movieName, movieImg, movieId } = props.movie
+    console.log(movieImg);
 
 
 
@@ -18,12 +19,12 @@ function Movie(props) {
 
 
     return (
-        <div>
+        <li>
             <img src={movieImg} onClick={() => handleClickMovie(movieId)} />
             <p>{movieName}</p>
             <button onClick={() => handleClickAddList(movieId)}>+ Add to my list</button>
             <input value={input} onChange={handleChangeInput} />
-        </div>
+        </li>
     )
 }
 

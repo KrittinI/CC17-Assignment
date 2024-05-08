@@ -1,11 +1,14 @@
 import Router from "./routes/Router"
 import './App.css'
+import MyFavouriteContextProvider from './context/MovieListContext'
 
 function App() {
 
   return (
     <div>
-      <Router />
+      <MyFavouriteContextProvider>
+        <Router />
+      </MyFavouriteContextProvider>
     </div>
   )
 }

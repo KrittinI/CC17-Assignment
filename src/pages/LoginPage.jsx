@@ -51,7 +51,7 @@ function LoginPage() {
         }
         console.log(user.status === "success");
         if (user.status === "success") {
-            navigate('/todo')
+            navigate('/')
         }
     }
 

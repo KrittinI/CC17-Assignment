@@ -5,11 +5,11 @@ import MyFavouriteContextProvider from './context/MovieListContext'
 function App() {
 
   return (
-    <div>
+    <>
       <MyFavouriteContextProvider>
         <Router />
       </MyFavouriteContextProvider>
-    </div>
+    </>
   )
 }
 

@@ -135,6 +135,7 @@ async function getMe() {
 - [ ] New Feature or Amazing UI (Depend on your creativity) (15pts)
 - [x] Deploy to Vercel or Netlify (15pts)
 - paste your link here
+  https://midtermtodo.vercel.app/
 
 ## Part-4 : Become Extraordinary Developer (100pts)
 
